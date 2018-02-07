@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         lastNameButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                toastProvider.showFirstNameToast();
+                toastProvider.showLastNameToast();
             }
         });
     }
